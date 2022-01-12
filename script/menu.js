@@ -5,8 +5,10 @@ var menuButton = document.querySelector(".menu");
 
 closeMenu.addEventListener('click', function () {
     box.style.visibility = "hidden";
+    closeMenu.style.visibility = "hidden";
 });
 
 menuButton.addEventListener('click', function () {
+    menuButton.style.visibility = "hidden";
     box.style.visibility = "visible";
 });

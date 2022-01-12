@@ -154,12 +154,10 @@ button.event-btn:hover{
     letter-spacing: 3px;
     align-items: center;
     text-align: center;
-    width: 80%;
-    margin: 60px;
-    margin-left: 10%;
+    margin-top: 60px;
+    margin-bottom: 60px;
 }
 .socials>.card{
-    width: 100%;
     border-style: dashed;
     margin-bottom: 80px;
     padding: 50px;
@@ -196,6 +194,7 @@ footer>p{
     margin-left: 100px;
     margin-right: 100px;
     font-size: 30px;
+    margin-bottom: 40px;
 }
 
 a{
@@ -203,6 +202,5 @@ a{
 }
 
 footer{
-    height: 250px;
     margin-bottom: 50px;
 }
