@@ -1,0 +1,18 @@
+header{
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    top: 0;
+    width: 100%;
+}
+
+header>svg{
+    margin: 50px;
+}
+
+header>.menu{
+    font-size: 80px;
+    transform: rotate(90deg);
+    margin-right: 100px;
+    cursor: pointer;
+}

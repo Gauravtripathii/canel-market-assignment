@@ -1,0 +1,64 @@
+.main{}
+
+.main>p{
+    margin: 80px;
+    margin-top: 400px;
+    font-size: 100px;
+}
+
+.main>.landing-image{
+    width: 100vw;
+    overflow: hidden;
+    margin-bottom: -100px;
+    margin-top: -100px;
+}
+.main>.landing-image>img{
+    transform: rotate(270deg);
+}
+
+
+.main>.sub-section2{
+    margin: 80px;
+    margin-top: 0;
+}
+.main>.sub-section2>h1{
+    font-size: 200px;
+    font-weight: 100;
+    margin-bottom: 200px;
+}
+.main>.sub-section2>.card,
+.main>.sub-section2>.card>span,
+.main>.sub-section2>.card>span>img{
+    width: 100%;
+}
+.main>.sub-section2>.card>p{
+    margin-top: 20px;
+    margin-bottom: 80px;
+    font-size: 30px;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+}
+
+
+/* SUB SECTION 3 */
+.sub-section3{
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-bottom: 100px;
+    border-bottom-style: dashed;
+}
+
+.sub-section3>h1{
+    font-size: 150px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 750px;
+    justify-content: space-between;
+    font-weight: 200;
+}
+.sub-section3>h1>#jap{
+    -webkit-text-stroke: 2px black;
+    font-weight: 800;
+    color: rgba(0, 0, 0, 0);
+}
