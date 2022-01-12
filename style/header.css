@@ -16,3 +16,49 @@ header>.menu{
     margin-right: 100px;
     cursor: pointer;
 }
+
+.menu-items{
+    position: fixed;
+    z-index: 11;
+    top: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+.menu-items>.item{
+    height: 30vh;
+    width: 50vw;
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu-items>.about{
+    background-color: #fff;
+}
+.menu-items>.about>p{
+    transform: rotate(-45deg);
+}
+.menu-items>.food{
+    background-color: #5ea3ec;
+}
+.menu-items>.food>p{
+    transform: rotate(45deg);
+}
+.menu-items>.retail{
+    background-color: #f64444;
+}
+.menu-items>.retail>p{
+    transform: rotate(45deg);
+}
+.menu-items>.community{
+    background-color: #ffb400;
+}
+.menu-items>.community>p{
+    transform: rotate(-45deg);
+}
+.close-m{
+    position: absolute;
+    right: 50px;
+    font-size: 100px;
+    cursor: pointer;
+}
