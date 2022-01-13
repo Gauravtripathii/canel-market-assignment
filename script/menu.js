@@ -3,10 +3,9 @@ var box = document.querySelector(".menu-items");
 var menuButton = document.querySelector(".menu");
 
 
-closeMenu.addEventListener('click', function () {
+function close_m() {
     box.style.visibility = "hidden";
-    closeMenu.style.visibility = "hidden";
-});
+}
 
 menuButton.addEventListener('click', function () {
     menuButton.style.visibility = "hidden";

@@ -1,0 +1,31 @@
+@media only screen and (min-width: 992px){
+    header{
+        background: white;
+        z-index: -1;
+    }
+    header>.menu{
+        display: none;
+    }
+    .menu-items{
+        /* position: relative; */
+        visibility: visible;
+        margin-left: 83.63vw;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .menu-items>.about{
+        display: none;
+    }
+    .menu-items>.close-m{
+        display: none;
+    }
+    .menu-items>.item{
+        width: 5vw;
+        height: 100vh;
+    }
+    .menu-items>.item>p{
+        transform: rotate(90deg);
+        font-size: 20px;
+    }
+}

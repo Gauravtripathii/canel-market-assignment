@@ -6,15 +6,17 @@
     <link rel="stylesheet" href="./style/main.css"/>
     <link rel="stylesheet" href="./style/section1.css"/>
     <link rel="stylesheet" href="./style/header.css"/>
+    <link rel="stylesheet" href="./style/section1_p.css"/>
+    <link rel="stylesheet" href="./style/header_p.css"/>
 </head>
 <body>
 
 <div class="menu-items">
-    <span class="close-m">&times;</span>
+    <span class="close-m" onclick="close_m()">&times;</span>
     <div class="about item" data-aos="fade-left"><p>About</p></div>
-    <div class="food item"><p>Food</p></div>
-    <div class="retail item"><p>Retail</p></div>
-    <div class="community item"><p>Community</p></div>
+    <div class="food item" data-aos="fade-down" data-aos-duration="1500"><p>Food</p></div>
+    <div class="retail item" data-aos="fade-down" data-aos-duration="1000"><p>Retail</p></div>
+    <div class="community item" data-aos="fade-down" data-aos-duration="500"><p>Community</p></div>
 </div>
 
     <header>
@@ -99,9 +101,10 @@
         <div class="sub-section3">
             <h1>
                 <span id="jap">活動</span>
-                <span>Market Events</span>
+                <span id="eng">Market Events</span>
                 <span id="jap">活動</span>
-            </h1>
+            </h1><br><br><br><br>
+            <p class="dashed-border"></p>
         </div>
     </section>
 
@@ -113,7 +116,7 @@
             <p>
                 Small Business Retail Popup Weekend
             </p>
-        </div>
+        </div><p class="dashed-border"></p>
         <div class="card">
             <span>
                 10/22
@@ -121,7 +124,7 @@
             <p>
                 Small Business Retail Popup Weekend
             </p>
-        </div>
+        </div><p class="dashed-border"></p>
         <div class="card">
             <span>
                 10/22
@@ -132,10 +135,13 @@
         </div>
     </section>
 
+    <p class="dashed-border" style="margin-left: 100px; width: 70%;"></p>
+
     <button class="event-btn">see all</button>
 
     <section class="address">
-        265, Canal St. New York, NY
+        <p>265, Canal St. New York, NY</p>
+        <p class="img"></p>
     </section>
 
     <p class="style-border"></p>
@@ -169,10 +175,10 @@
                 <input type="text" placeholder="Email">
             </div>
         </div>
-        <p> <a href="/">Privacy Policy</a>
+        <p class="b"> <a href="/">Privacy Policy</a>
             <a href="/">Vendor Login</a>
         </p>
-        <p>
+        <p class="t">
             <span>Site by <strike>Zero</strike></span>
             <span>Copyright Canal Street Market</span>
         </p>
