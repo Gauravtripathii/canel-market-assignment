@@ -125,6 +125,17 @@
         display: flex;
         align-items: center;
     }
+    /* .address>p:hover{
+        background-repeat: repeat-x, repeat-x, repeat-y, repeat-y;
+        background-size: 16px 4px, 16px 4px, 4px 16px, 4px 16px;
+        background-position: 0% 0%, 100% 100%, 0% 100%, 100% 0px;
+        animation: dash 5s linear infinite;
+    }
+    @keyframes dash {
+        to {
+            background-position: 100% 0%, 0% 100%, 0% 0%, 100% 100%;
+        }
+    } */
     .address>.img{
         background: url(../media/location-img.avif);
     }
