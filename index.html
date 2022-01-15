@@ -12,7 +12,7 @@
 <body>
 
 <div class="menu-items">
-    <span class="close-m" onclick="close_m()">&times;</span>
+    <span class="close-m" onmousedown="no_more_popups()">&times;</span>
     <div class="about item" data-aos="fade-left"><p>About</p></div>
     <div class="food item" data-aos="fade-down" data-aos-duration="1500"><p>Food</p></div>
     <div class="retail item" data-aos="fade-down" data-aos-duration="1000"><p>Retail</p></div>
@@ -185,12 +185,13 @@
     </footer>
 
 
-
+<script src="./script/menu.js"></script>
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 <script>
     AOS.init();
 </script>
+
 <script src="./script/scroll-animation.js"></script>
-<script src="./script/menu.js"></script>
+
 </body>
 </html>

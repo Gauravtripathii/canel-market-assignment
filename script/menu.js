@@ -1,13 +1,14 @@
 var closeMenu = document.querySelector(".close-m");
-var box = document.querySelector(".menu-items");
+var menu = document.querySelector(".menu-items");
 var menuButton = document.querySelector(".menu");
 
 
-function close_m() {
-    box.style.visibility = "hidden";
+function no_more_popups() {
+    console.log(22);
+    menu.style.visibility = "hidden";
 }
 
 menuButton.addEventListener('click', function () {
     menuButton.style.visibility = "hidden";
-    box.style.visibility = "visible";
+    menu.style.visibility = "visible";
 });
